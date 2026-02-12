@@ -123,8 +123,8 @@ let a = 5;
 let post_value = a++;   // post value = 5, then a becomes 6
 let pre_value = ++a;    // a becomes 7, then pre value = 7
 
-console.log("Post value -",post_value);
-console.log("Pre Value -",pre_value);
+console.log("Post value",post_value);
+console.log("Pre Value",pre_value);
 console.log(a);
 
 // Post vs Pre Increment 
@@ -171,10 +171,10 @@ console.log("Power value of number",num);//3*3*3*3
 
  //Equality Test
 
-console.log("Equality of two numbers -",5 == "5");     
-console.log("Equality of two numbers -",5 === "5");   
-console.log("Equality of two numbers -",0 == false);  
-console.log("Equality of two numbers -",0 === false);  
+console.log("Equality of two numbers",5 == "5");     
+console.log("Equality of two numbers",5 === "5");   
+console.log("Equality of two numbers",0 == false);  
+console.log("Equality of two numbers",0 === false);  
 
 // Equal operator == Compares value only	
 // Strict Equal operator === Compares value + type
@@ -257,9 +257,9 @@ let user = {
    skills: ["JS", "React"]
 };
 
-console.log("UserName -",user.name);
+console.log("UserName",user.name);
 
-console.log("User first skill -",user.skills[0]);
+console.log("User first skill",user.skills[0]);
 
 if (user.age >= 18) {
    console.log("Adult");
@@ -270,11 +270,11 @@ if (user.isLoggedIn && user.age >= 18) {
 }
 
 let loginStatus = user.isLoggedIn ? "Logged In" : "Not Logged In";
-console.log("Login Status -",loginStatus);
+console.log("Login Status",loginStatus);
 
 user.age++;
-console.log("User age -",user.age);
+console.log("User age",user.age);
 
 user.skills.push("Node.js");
 
-console.log("Updated User Data -",user);
+console.log("Updated User Data",user);
