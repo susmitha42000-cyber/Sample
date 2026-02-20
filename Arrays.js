@@ -1,3 +1,4 @@
+
 //1. Task 1 – forEach()
 // Using array: ["Arun", "Bala", "Charan", "David"]
 // Print:
@@ -6,11 +7,11 @@
 // 3 - Charan
 // 4 - David
 
-let names = ["Arun", "Bala", "Charan", "David"];
-names.forEach((currentElements, index, TotalArray)=>{
-console.log(currentElements);
-}
-)
+let names = ["Arun","Bala","Charan","David"]
+names.forEach((currentElement, index) => {
+console.log((index + 1) + " - " + currentElement);
+});
+
 
 //2. Task 2 – map()
 // Numbers: [2, 4, 6, 8]
